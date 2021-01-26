@@ -22,7 +22,7 @@ const Hero = () => {
 
     return (
         <section id='hero'>
-            <div className="grid xs:grid-cols-1 md:grid-cols-2 gap-2 bg-yellow-300">
+            <div className="grid xs:grid-cols-1 md:grid-cols-2 gap-2 bg-blue-500">
                 <div className="flex justify-end">
                     <div className="h-3/5">
                         <img src={image} alt="Curso Timbal"/>
@@ -36,7 +36,7 @@ const Hero = () => {
                         <div className="flex justify-center m-5 ">
                             <Button
                                 variant="contained"
-                                color="primary"
+                                color="secondary"
                                 size="large"
                                 className={classes.button}
                                 startIcon={ <CloudDownloadIcon />}

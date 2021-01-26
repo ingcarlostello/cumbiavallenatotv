@@ -1,4 +1,5 @@
 import React from 'react';
+import CaracteristicasCurso from './components/CaracteristicasCurso';
 //@ components
 import Hero from './components/Hero';
 import Profesor from './components/Profesor';
@@ -9,6 +10,7 @@ function App() {
     <>
       <Hero />
       <QueAprenderas />
+      <CaracteristicasCurso />
       <Profesor />
     </>
   );

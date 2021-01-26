@@ -4,13 +4,13 @@ import videoCourse from '../Videos/video.mp4'
 const QueAprenderas = () => {
     return (
         <section id="queAprenderas">
-            <h1>Que aprenderás</h1>
-            <div className="grid grid-cols-2 gap-2 bg-yellow-300">
+            <h1 className="xs:text-4xl text-center md:text-6xl font-sans font-bold text-gray-900 my-8">Que Aprenderás</h1>
+            <div  className="grid grid-cols-2 gap-2 p-4 justify-items-center">
                 <div>
                     <video 
                         controls 
                         src={videoCourse} 
-                        style={{width: 500, height: 'auto'}}
+                        style={{width: 700, height: 'auto'}}
                     /> 
                 </div>
                 <div className="bg-red-300">
